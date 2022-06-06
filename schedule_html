@@ -1,0 +1,33 @@
+<html>
+
+<meta charset="UTF-8">
+<head>
+	<title>My Schedule</title>
+	<style>
+			body{
+				background-color: mistyrose;
+				margin-left: 250px;
+				margin-right: 250px;
+			}
+			h2 {
+				text-align: center;
+			}
+
+	</style>
+</head>
+<body>
+ <h2>My Schedule</h2>
+ <hr>
+ <center>
+ 	<div class="wrap">
+ 		<div class="text">
+ 			<form method="post" action= "schedule_manage.html">
+			스케줄 관리 <br>
+	    	<input type="submit" value="확인"> 
+ 		</div>
+ 			<div class="image"><img src="C:\Users\qkrwl\OneDrive\바탕 화면\데베\scheduler.png"> </div>
+ 	</div>
+</form>
+</center>
+</body>
+</html>
