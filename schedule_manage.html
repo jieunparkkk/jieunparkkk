@@ -1,0 +1,45 @@
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>My Schedule</title>
+	<style>
+			body{
+				background-color: mistyrose;
+				margin-left: 250px;
+				margin-right: 250px;
+			}
+			h2 {
+				text-align: center;
+			}
+
+	</style>
+</head>
+<body>
+ <h2>My Schedule</h2>
+ <hr>
+	<form method="post" action="schedule_insert.php">
+	    날짜 입력 <input type="date" name="a1"><br>
+
+	    시간 입력 <input type="time" name="a2"><br>
+
+	    제목 입력 <input type="text" name="a3"><br>
+	    <input type="submit" value="확인">
+	</form>
+	 <hr>
+	<form method="post" action="schedule_delete.php">
+	    삭제 번호 입력 <input type="text" name="b1"><br>
+	    <input type="submit" value="확인">
+	</form>
+	 <hr>
+	<form method="post" action="schedule_search.php">
+	    검색 키워드 입력 <input type="text" name="c1"><br>
+	    <input type="submit" value="확인">
+	</form>
+	<hr>
+	<form method="post" action="schedule_select.php">
+	    스케줄을 확인합니다. <br>
+	    <input type="submit" value="확인">
+	</form>
+
+</body>
+</html>
